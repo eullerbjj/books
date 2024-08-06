@@ -1,0 +1,25 @@
+<div class="container">
+    <h2>Lista de Assuntos</h2>
+    <button class="btn btn-primary mb-3" [routerLink]="['/assuntos/criar']">Novo Assunto</button>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Descrição</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let subject of subjects">
+          <td>{{ subject.id }}</td>
+          <td>{{ subject.description }}</td>
+
+          <td>
+            <button class="btn btn-warning" (click)="onEdit(subject.id)">Editar</button>
+            <button class="btn btn-danger" (click)="onDelete(subject.id)">Excluir</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

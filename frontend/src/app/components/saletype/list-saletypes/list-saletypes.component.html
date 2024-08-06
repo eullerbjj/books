@@ -1,0 +1,25 @@
+<div class="container">
+    <h2>Lista de Tipo de venda</h2>
+    <button class="btn btn-primary mb-3" [routerLink]="['/tipo-venda/criar']">Novo Tipo de venda</button>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Descrição</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let saletype of saletypes">
+          <td>{{ saletype.id }}</td>
+          <td>{{ saletype.description }}</td>
+
+          <td>
+            <button class="btn btn-warning" (click)="onEdit(saletype.id)">Editar</button>
+            <button class="btn btn-danger" (click)="onDelete(saletype.id)">Excluir</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

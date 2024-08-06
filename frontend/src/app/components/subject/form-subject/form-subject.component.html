@@ -1,0 +1,18 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()" class="p-3 border rounded shadow-sm bg-light">
+    <div class="mb-3">
+      <label for="subjectName" class="form-label">Descrição do Assunto</label>
+      <input
+        type="text"
+        id="subjectName"
+        formControlName="description"
+        class="form-control"
+        placeholder="Digite a descrição do Assunto"
+        maxlength="20"
+        [ngClass]="{ 'is-invalid': form.get('description')?.invalid && form.get('description')?.touched }"
+      />
+      <div *ngIf="form.get('description')?.invalid && form.get('description')?.touched" class="invalid-feedback">
+        A descrição do assunto é obrigatória.
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary" [disabled]="form.invalid">Salvar</button>
+  </form>

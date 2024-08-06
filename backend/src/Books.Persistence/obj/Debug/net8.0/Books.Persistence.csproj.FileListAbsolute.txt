@@ -1,0 +1,17 @@
+C:\repos\books\books\src\Books.Persistence\bin\Debug\net8.0\Books.Persistence.deps.json
+C:\repos\books\books\src\Books.Persistence\bin\Debug\net8.0\Books.Persistence.runtimeconfig.json
+C:\repos\books\books\src\Books.Persistence\bin\Debug\net8.0\Books.Persistence.dll
+C:\repos\books\books\src\Books.Persistence\bin\Debug\net8.0\Books.Persistence.pdb
+C:\repos\books\books\src\Books.Persistence\bin\Debug\net8.0\Books.Domain.dll
+C:\repos\books\books\src\Books.Persistence\bin\Debug\net8.0\Books.Domain.pdb
+C:\repos\books\books\src\Books.Persistence\obj\Debug\net8.0\Books.Persistence.csproj.AssemblyReference.cache
+C:\repos\books\books\src\Books.Persistence\obj\Debug\net8.0\Books.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\books\books\src\Books.Persistence\obj\Debug\net8.0\Books.Persistence.AssemblyInfoInputs.cache
+C:\repos\books\books\src\Books.Persistence\obj\Debug\net8.0\Books.Persistence.AssemblyInfo.cs
+C:\repos\books\books\src\Books.Persistence\obj\Debug\net8.0\Books.Persistence.csproj.CoreCompileInputs.cache
+C:\repos\books\books\src\Books.Persistence\obj\Debug\net8.0\Books.Pe.24A8846C.Up2Date
+C:\repos\books\books\src\Books.Persistence\obj\Debug\net8.0\Books.Persistence.dll
+C:\repos\books\books\src\Books.Persistence\obj\Debug\net8.0\refint\Books.Persistence.dll
+C:\repos\books\books\src\Books.Persistence\obj\Debug\net8.0\Books.Persistence.pdb
+C:\repos\books\books\src\Books.Persistence\obj\Debug\net8.0\Books.Persistence.genruntimeconfig.cache
+C:\repos\books\books\src\Books.Persistence\obj\Debug\net8.0\ref\Books.Persistence.dll

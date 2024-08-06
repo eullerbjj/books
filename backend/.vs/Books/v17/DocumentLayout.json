@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\repos\\books\\books\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D44F80-B1A5-41C7-9134-538FCD8FCF7B}|src\\Books.Test\\Books.Test.csproj|c:\\repos\\books\\books\\src\\books.test\\book\\getbyidhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9D44F80-B1A5-41C7-9134-538FCD8FCF7B}|src\\Books.Test\\Books.Test.csproj|solutionrelative:src\\books.test\\book\\getbyidhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA0B9B8-ECBE-48AD-A7B4-95CD45879C48}|src\\Books.Application\\Books.Application.csproj|c:\\repos\\books\\books\\src\\books.application\\usecases\\book\\getbyid\\getbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA0B9B8-ECBE-48AD-A7B4-95CD45879C48}|src\\Books.Application\\Books.Application.csproj|solutionrelative:src\\books.application\\usecases\\book\\getbyid\\getbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D44F80-B1A5-41C7-9134-538FCD8FCF7B}|src\\Books.Test\\Books.Test.csproj|c:\\repos\\books\\books\\src\\books.test\\book\\getallhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9D44F80-B1A5-41C7-9134-538FCD8FCF7B}|src\\Books.Test\\Books.Test.csproj|solutionrelative:src\\books.test\\book\\getallhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA0B9B8-ECBE-48AD-A7B4-95CD45879C48}|src\\Books.Application\\Books.Application.csproj|c:\\repos\\books\\books\\src\\books.application\\usecases\\book\\getall\\getallhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA0B9B8-ECBE-48AD-A7B4-95CD45879C48}|src\\Books.Application\\Books.Application.csproj|solutionrelative:src\\books.application\\usecases\\book\\getall\\getallhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D44F80-B1A5-41C7-9134-538FCD8FCF7B}|src\\Books.Test\\Books.Test.csproj|c:\\repos\\books\\books\\src\\books.test\\book\\updatehandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9D44F80-B1A5-41C7-9134-538FCD8FCF7B}|src\\Books.Test\\Books.Test.csproj|solutionrelative:src\\books.test\\book\\updatehandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D44F80-B1A5-41C7-9134-538FCD8FCF7B}|src\\Books.Test\\Books.Test.csproj|c:\\repos\\books\\books\\src\\books.test\\book\\deletehandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9D44F80-B1A5-41C7-9134-538FCD8FCF7B}|src\\Books.Test\\Books.Test.csproj|solutionrelative:src\\books.test\\book\\deletehandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D44F80-B1A5-41C7-9134-538FCD8FCF7B}|src\\Books.Test\\Books.Test.csproj|c:\\repos\\books\\books\\src\\books.test\\book\\createhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9D44F80-B1A5-41C7-9134-538FCD8FCF7B}|src\\Books.Test\\Books.Test.csproj|solutionrelative:src\\books.test\\book\\createhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA0B9B8-ECBE-48AD-A7B4-95CD45879C48}|src\\Books.Application\\Books.Application.csproj|c:\\repos\\books\\books\\src\\books.application\\usecases\\book\\delete\\deletehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA0B9B8-ECBE-48AD-A7B4-95CD45879C48}|src\\Books.Application\\Books.Application.csproj|solutionrelative:src\\books.application\\usecases\\book\\delete\\deletehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4244FDF5-8431-4ED6-A5C0-069989CEB4B5}|src\\Books.API\\Books.API.csproj|c:\\repos\\books\\books\\src\\books.api\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4244FDF5-8431-4ED6-A5C0-069989CEB4B5}|src\\Books.API\\Books.API.csproj|solutionrelative:src\\books.api\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA0B9B8-ECBE-48AD-A7B4-95CD45879C48}|src\\Books.Application\\Books.Application.csproj|c:\\repos\\books\\books\\src\\books.application\\usecases\\book\\update\\updatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA0B9B8-ECBE-48AD-A7B4-95CD45879C48}|src\\Books.Application\\Books.Application.csproj|solutionrelative:src\\books.application\\usecases\\book\\update\\updatehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA0B9B8-ECBE-48AD-A7B4-95CD45879C48}|src\\Books.Application\\Books.Application.csproj|c:\\repos\\books\\books\\src\\books.application\\usecases\\book\\create\\createhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA0B9B8-ECBE-48AD-A7B4-95CD45879C48}|src\\Books.Application\\Books.Application.csproj|solutionrelative:src\\books.application\\usecases\\book\\create\\createhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetByIdHandlerTests.cs",
+              "DocumentMoniker": "C:\\repos\\books\\books\\src\\Books.Test\\Book\\GetByIdHandlerTests.cs",
+              "RelativeDocumentMoniker": "src\\Books.Test\\Book\\GetByIdHandlerTests.cs",
+              "ToolTip": "C:\\repos\\books\\books\\src\\Books.Test\\Book\\GetByIdHandlerTests.cs",
+              "RelativeToolTip": "src\\Books.Test\\Book\\GetByIdHandlerTests.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCIAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T10:02:09.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetByIdHandler.cs",
+              "DocumentMoniker": "C:\\repos\\books\\books\\src\\Books.Application\\UseCases\\Book\\GetById\\GetByIdHandler.cs",
+              "RelativeDocumentMoniker": "src\\Books.Application\\UseCases\\Book\\GetById\\GetByIdHandler.cs",
+              "ToolTip": "C:\\repos\\books\\books\\src\\Books.Application\\UseCases\\Book\\GetById\\GetByIdHandler.cs",
+              "RelativeToolTip": "src\\Books.Application\\UseCases\\Book\\GetById\\GetByIdHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T10:01:28.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetAllHandlerTests.cs",
+              "DocumentMoniker": "C:\\repos\\books\\books\\src\\Books.Test\\Book\\GetAllHandlerTests.cs",
+              "RelativeDocumentMoniker": "src\\Books.Test\\Book\\GetAllHandlerTests.cs",
+              "ToolTip": "C:\\repos\\books\\books\\src\\Books.Test\\Book\\GetAllHandlerTests.cs",
+              "RelativeToolTip": "src\\Books.Test\\Book\\GetAllHandlerTests.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T10:00:08.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetAllHandler.cs",
+              "DocumentMoniker": "C:\\repos\\books\\books\\src\\Books.Application\\UseCases\\Book\\GetAll\\GetAllHandler.cs",
+              "RelativeDocumentMoniker": "src\\Books.Application\\UseCases\\Book\\GetAll\\GetAllHandler.cs",
+              "ToolTip": "C:\\repos\\books\\books\\src\\Books.Application\\UseCases\\Book\\GetAll\\GetAllHandler.cs",
+              "RelativeToolTip": "src\\Books.Application\\UseCases\\Book\\GetAll\\GetAllHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:59:19.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeleteHandlerTests.cs",
+              "DocumentMoniker": "C:\\repos\\books\\books\\src\\Books.Test\\Book\\DeleteHandlerTests.cs",
+              "RelativeDocumentMoniker": "src\\Books.Test\\Book\\DeleteHandlerTests.cs",
+              "ToolTip": "C:\\repos\\books\\books\\src\\Books.Test\\Book\\DeleteHandlerTests.cs",
+              "RelativeToolTip": "src\\Books.Test\\Book\\DeleteHandlerTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:57:12.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeleteHandler.cs",
+              "DocumentMoniker": "C:\\repos\\books\\books\\src\\Books.Application\\UseCases\\Book\\Delete\\DeleteHandler.cs",
+              "RelativeDocumentMoniker": "src\\Books.Application\\UseCases\\Book\\Delete\\DeleteHandler.cs",
+              "ToolTip": "C:\\repos\\books\\books\\src\\Books.Application\\UseCases\\Book\\Delete\\DeleteHandler.cs",
+              "RelativeToolTip": "src\\Books.Application\\UseCases\\Book\\Delete\\DeleteHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:56:22.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateHandlerTests.cs",
+              "DocumentMoniker": "C:\\repos\\books\\books\\src\\Books.Test\\Book\\UpdateHandlerTests.cs",
+              "RelativeDocumentMoniker": "src\\Books.Test\\Book\\UpdateHandlerTests.cs",
+              "ToolTip": "C:\\repos\\books\\books\\src\\Books.Test\\Book\\UpdateHandlerTests.cs",
+              "RelativeToolTip": "src\\Books.Test\\Book\\UpdateHandlerTests.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwCEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:48:51.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateHandler.cs",
+              "DocumentMoniker": "C:\\repos\\books\\books\\src\\Books.Application\\UseCases\\Book\\Update\\UpdateHandler.cs",
+              "RelativeDocumentMoniker": "src\\Books.Application\\UseCases\\Book\\Update\\UpdateHandler.cs",
+              "ToolTip": "C:\\repos\\books\\books\\src\\Books.Application\\UseCases\\Book\\Update\\UpdateHandler.cs",
+              "RelativeToolTip": "src\\Books.Application\\UseCases\\Book\\Update\\UpdateHandler.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAADwv0QAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:47:12.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateHandler.cs",
+              "DocumentMoniker": "C:\\repos\\books\\books\\src\\Books.Application\\UseCases\\Book\\Create\\CreateHandler.cs",
+              "RelativeDocumentMoniker": "src\\Books.Application\\UseCases\\Book\\Create\\CreateHandler.cs",
+              "ToolTip": "C:\\repos\\books\\books\\src\\Books.Application\\UseCases\\Book\\Create\\CreateHandler.cs",
+              "RelativeToolTip": "src\\Books.Application\\UseCases\\Book\\Create\\CreateHandler.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAswEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:38:31.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateHandlerTests.cs",
+              "DocumentMoniker": "C:\\repos\\books\\books\\src\\Books.Test\\Book\\CreateHandlerTests.cs",
+              "RelativeDocumentMoniker": "src\\Books.Test\\Book\\CreateHandlerTests.cs",
+              "ToolTip": "C:\\repos\\books\\books\\src\\Books.Test\\Book\\CreateHandlerTests.cs",
+              "RelativeToolTip": "src\\Books.Test\\Book\\CreateHandlerTests.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:35:55.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "C:\\repos\\books\\books\\src\\Books.API\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "src\\Books.API\\Controllers\\ReportController.cs",
+              "ToolTip": "C:\\repos\\books\\books\\src\\Books.API\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "src\\Books.API\\Controllers\\ReportController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wA0AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:13:49.121Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+<form *ngIf="form" [formGroup]="form" (ngSubmit)="onSubmit()" class="p-3 border rounded shadow-sm bg-light">
+  <!-- Título -->
+  <div class="mb-3">
+    <label for="title" class="form-label">Título</label>
+    <input
+      type="text"
+      id="title"
+      formControlName="title"
+      class="form-control"
+      placeholder="Digite o título do livro"
+      [ngClass]="{ 'is-invalid': form.get('title')?.invalid && form.get('title')?.touched }"
+      maxlength="40"
+      required
+    />
+    <div *ngIf="form.get('title')?.invalid && form.get('title')?.touched" class="invalid-feedback">
+      O título é obrigatório.
+    </div>
+  </div>
+
+  <!-- Editora -->
+  <div class="mb-3">
+    <label for="publisher" class="form-label">Editora</label>
+    <input
+      type="text"
+      id="publisher"
+      formControlName="publisher"
+      class="form-control"
+      placeholder="Digite a editora do livro"
+      [ngClass]="{ 'is-invalid': form.get('publisher')?.invalid && form.get('publisher')?.touched }"
+      maxlength="40"
+      required
+    />
+    <div *ngIf="form.get('publisher')?.invalid && form.get('publisher')?.touched" class="invalid-feedback">
+      A editora é obrigatória.
+    </div>
+  </div>
+  
+  <!-- Edição -->
+  <div class="mb-3">
+    <label for="edition" class="form-label">Edição</label>
+    <input
+      type="number"
+      id="edition"
+      formControlName="edition"
+      class="form-control"
+      placeholder="Digite a edição do livro"
+      [ngClass]="{ 'is-invalid': form.get('edition')?.invalid && form.get('edition')?.touched }"
+      required
+    />
+    <div *ngIf="form.get('edition')?.invalid && form.get('edition')?.touched" class="invalid-feedback">
+      A edição é obrigatória.
+    </div>
+  </div>
+  
+  <!-- Ano de Lançamento -->
+  <div class="mb-3">
+    <label for="publicationYear" class="form-label">Ano de Lançamento</label>
+    <input
+      type="number"
+      id="publicationYear"
+      formControlName="publicationYear"
+      class="form-control"
+      placeholder="Digite o ano de lançamento"
+      [ngClass]="{ 'is-invalid': form.get('publicationYear')?.invalid && form.get('publicationYear')?.touched }"
+      min="1500"
+      max="2050"
+      required
+    />
+    <div *ngIf="form.get('publicationYear')?.invalid && form.get('publicationYear')?.touched" class="invalid-feedback">
+      O ano de lançamento é obrigatório e deve estar entre 1500 e 2050.
+    </div>
+  </div>
+
+  <!-- Autores e Assuntos lado a lado -->
+  <div class="row">
+    <div class="col-md-6 mb-3">
+      <label class="form-label">Autores</label>
+      <div formArrayName="authors">
+        <div *ngFor="let authorControl of authorsFormArray.controls; let i = index" class="form-check">
+          <input
+            type="checkbox"
+            [formControlName]="i"
+            class="form-check-input"
+            id="author-{{i}}"
+          />
+          <label for="author-{{i}}" class="form-check-label">{{ authors[i].name }}</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 mb-3">
+      <label class="form-label">Assuntos</label>
+      <div formArrayName="subjects">
+        <div *ngFor="let subjectControl of subjectsFormArray.controls; let i = index" class="form-check">
+          <input
+            type="checkbox"
+            [formControlName]="i"
+            class="form-check-input"
+            id="subject-{{i}}"
+          />
+          <label for="subject-{{i}}" class="form-check-label">{{ subjects[i].description }}</label>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Tipos de Venda -->
+  <div formArrayName="saleTypePrices" *ngFor="let saleTypePrice of saleTypePricesFormArray.controls; let i = index">
+    <div [formGroupName]="i" class="mb-3">
+      <label class="form-label">{{ saleTypes[i].description }}</label>
+      <input
+        type="number"
+        formControlName="value"
+        class="form-control"
+        placeholder="Preço de Venda"
+        mask="separator.2"
+        [ngClass]="{ 'is-invalid': saleTypePrice.get('value')?.invalid && saleTypePrice.get('value')?.touched }"
+        required
+      />
+      <div *ngIf="saleTypePrice.get('value')?.invalid && saleTypePrice.get('value')?.touched" class="invalid-feedback">
+        O preço de venda é obrigatório.
+      </div>
+    </div>
+  </div>
+
+  <!-- Botão de Salvar -->
+  <div class="text-end">
+    <button type="submit" class="btn btn-primary" [disabled]="form.invalid">Salvar</button>
+  </div>
+</form>
